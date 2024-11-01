@@ -1,0 +1,102 @@
+@media only screen and (max-width: 500px) {
+  .swiper-button-next, .swiper-button-prev {
+    display: none;
+  }
+}
+
+h1 {
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+strong {
+  font-size: 50px;
+}
+
+#content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.swiper-slide {
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+  margin-top: 50px
+}
+
+.swiper-container {
+    max-width: 1280px; 
+}      
+
+
+#content .swiper-container-horizontal>.swiper-pagination-progress {
+    width: 100%;
+    height: 4px;
+    left: 11px;
+    top: 0px;
+    bottom: 5px;
+    left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+border-radius: 30px;
+}
+
+.swiper-pagination-progress .swiper-pagination-progressbar
+{
+  background: #00e553;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 170%;
+    border-radius: 116px;
+}
+
+img {
+  max-width: 400px;
+  margin: 50px 0px 50px 50px;
+
+}
+
+.slide_text {
+  position: absolute;
+  bottom: 100px;
+  display:inline-block;
+  width: 350px;
+}
+.slide_text {
+  position: relative;
+}
+
+.swiper-button-prev {
+  background-image: url(http://tz.geopump.ru/wp-content/uploads/2024/11/left.svg);
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+}
+
+.swiper-button-next {
+  background-image: url(http://tz.geopump.ru/wp-content/uploads/2024/11/pravo.svg);
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+}
